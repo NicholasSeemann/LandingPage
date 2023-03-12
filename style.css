@@ -34,3 +34,45 @@ a {
 .headerLeft {
     font-size: 18px;
 }
+
+.hero {
+    display: flex;
+    padding: 50px 200px;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.heroImage > img {
+    height: auto;
+    width: 500px;
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    justify-content: center;
+    gap: 8px;
+}
+
+.heroText > .mainText {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.heroText > .secondaryText {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signUp {
+    background-color: #3882f6;
+    width: 120px;
+    height: 40px;
+    align-self: center;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    color: #f9faf8;
+}
