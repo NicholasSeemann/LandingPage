@@ -112,3 +112,22 @@ a {
     border: 5px solid #3882f6;
     border-radius: 20px;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 200px 500px;
+    background-color: #e5e7eb;
+}
+
+.quoteText {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.citation {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+}
