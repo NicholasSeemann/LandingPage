@@ -162,3 +162,11 @@ a {
     border: 3px solid white;
     border-radius: 10px;
 }
+
+.copyright {
+    padding: 16px;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: center;
+}
