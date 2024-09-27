@@ -2,10 +2,16 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto';
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
 }
 
 .header {
-    padding: 0px 200px;
+    padding: 25px 200px;
 }
 
 .header {
@@ -16,10 +22,8 @@ body {
 }
 
 #header-logo>p {
-    font-family: Roboto;
     color: #E5E7EB;
     font-size: 24px;
-    font-weight: 900;
 }
 
 #header-links {
@@ -34,4 +38,37 @@ body {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.upper-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 200px 200px;
+    padding-bottom: 100px;
+    background-color: #1F2937;
+    gap: 24px;
+}
+
+.UM-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 8px;
+}
+
+#button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 24px;
+}
+
+#UP-header>p {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
