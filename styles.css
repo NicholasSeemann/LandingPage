@@ -125,6 +125,25 @@ p {
 .call {
     background-color: #3882F6;
     border-radius: 12px;
-    margin: 100px 200px;
-    padding: 40px 80px;
+    margin: 100px 300px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+}
+
+#cHeader {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.call>button {
+    background-color: #3882F6;
+    border: solid;
+    border-radius: 12px;
+    padding: 10px 24px;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 600;
 }
