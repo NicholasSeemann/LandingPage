@@ -147,3 +147,10 @@ p {
     font-size: 18px;
     font-weight: 600;
 }
+
+.footer {
+    background-color: #1F2937;
+    padding: 75px 200px;
+    color: #F9FAF8;
+    text-align: center;
+}
