@@ -77,9 +77,30 @@ p {
 .sub-upper {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 75px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .su-images {
     display: flex;
     justify-content: space-around;
+    margin: 75px 200px 100px;
+}
+
+.img-sec {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    text-align: center;
+    gap: 8px;
+}
+
+.img-sec>img {
+    background-color: #3882F6;
+    padding: 5px;
+    border-radius: 12px;
 }
