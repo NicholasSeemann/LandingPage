@@ -110,7 +110,7 @@ p {
     display: flex;
     flex-direction: column;
     font-size: 36px;
-    padding: 75px 400px;
+    padding: 150px 400px;
     font-weight: light;
     font-style: italic;
     color: #1F2937;
@@ -120,4 +120,11 @@ p {
     font-style: normal;
     font-weight: 600;
     align-self: flex-end;
+}
+
+.call {
+    background-color: #3882F6;
+    border-radius: 12px;
+    margin: 100px 200px;
+    padding: 40px 80px;
 }
