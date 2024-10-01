@@ -79,7 +79,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 75px;
+    margin: 50px;
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
@@ -88,7 +88,7 @@ p {
 .su-images {
     display: flex;
     justify-content: space-around;
-    margin: 75px 200px 100px;
+    margin: 0px 200px 100px;
 }
 
 .img-sec {
@@ -103,4 +103,8 @@ p {
     background-color: #3882F6;
     padding: 5px;
     border-radius: 12px;
+}
+
+.quote-sec {
+    
 }
